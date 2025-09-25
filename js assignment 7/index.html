@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+
+    <!-- chap: 35-38 "functions" -->
+<!-- 14) -->
+  <!-- <h2>The Geometrizer</h2>
+  <p id="result1"></p>
+  <p id="result2"></p>
+
+  <script>
+    function calcCircumference(radius) {
+      var circumference = 2 * Math.PI * radius;
+      document.getElementById("result1").innerHTML =
+        "The circumference is " + circumference.toFixed(2);
+    }
+
+    function calcArea(radius) {
+      var area = Math.PI * radius * radius;
+      document.getElementById("result2").innerHTML =
+        "The area is " + area.toFixed(2);
+    }
+
+    var r = 5; 
+    calcCircumference(r);
+    calcArea(r);
+  </script> -->
+
+<!-- chap: 38-42 "Functions, While,Switch" -->
+<!-- 1) -->
+<!-- <p id="result"></p>
+
+  <script>
+    // Custom power function
+    function power(a, b) {
+      var result = 1;
+      for (var i = 1; i <= b; i++) {
+        result = result * a;
+      }
+      return result;
+    }
+
+    var base = 2;
+    var exponent = 5;
+    var answer = power(base, exponent);
+
+    document.getElementById("result").innerHTML =
+      base + " raised to the power " + exponent + " is " + answer;
+</script> -->
+
+<!-- 2) -->
+ <!-- <h2>Check Leap Year</h2>
+  <p id="leapResult"></p>
+
+  <h2>Triangle Area</h2>
+  <p id="areaResult"></p>
+
+  <script>
+    // Function to check leap year
+    function isLeapYear(year) {
+      if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+
+    // Function to calculate triangle area using Heron's formula
+    function triangleArea(a, b, c) {
+      var S = (a + b + c) / 2;
+      var area = Math.sqrt(S * (S - a) * (S - b) * (S - c));
+      return area;
+    }
+
+    // Example usage
+    var year = 2024;
+    var leapMessage = year + (isLeapYear(year) ? " is a Leap Year" : " is NOT a Leap Year");
+    document.getElementById("leapResult").innerHTML = leapMessage;
+
+    var a = 3, b = 4, c = 5; // sides of triangle
+    var area = triangleArea(a, b, c);
+    document.getElementById("areaResult").innerHTML =
+      "Area of triangle with sides " + a + ", " + b + ", " + c + " is " + area.toFixed(2);
+  </script> -->
+
+
+
+
+
+
+
+    <!-- chap: 43-48 "events" -->
+     <!-- 1) -->
+    <!-- <a href="" onclick="alert()">LINK</a> -->
+
+    <!-- 2) -->
+<!-- <img width="200" onclick="alert('Thanks for purchasing a phone from us')" src="https://tse1.mm.bing.net/th/id/OIP.xyhf7bmGlSan6P-r46qk4AHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt=""> -->
+<!-- <img width="200" onclick="alert('Thanks for purchasing a phone from us')" src="https://tse3.mm.bing.net/th/id/OIP.5QMkXIlusvZfEUm50okfbAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt=""> -->
+<!-- <img width="200" onclick="alert('Thanks for purchasing a phone from us')" src="https://th.bing.com/th/id/R.2059e49547056a6d66011d841b3592a4?rik=aljuStfO238yYg&pid=ImgRaw&r=0" alt=""> -->
+<!-- <img width="200" onclick="alert('Thanks for purchasing a phone from us')" src="https://static.swappa.com/media/listing/LWHP12221/fsDODXiq.jpg" alt=""> -->
+
+<!-- 3) -->
+
+<!-- <table id="studentTable">
+  <tr>
+    <th>Index</th>
+    <th>Name</th>
+    <th>Class</th>
+  </tr>
+  <tr>
+       <td>0</td>
+    <td>fatima</td>
+    <td>8</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Ali</td>
+    <td>10</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Hassan</td>
+    <td>10</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Ayesha</td>
+    <td>9</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Omar</td>
+    <td>8</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Sara</td>
+    <td>9</td>
+    <td><button onclick="deleteRow(this)">Delete</button></td>
+  </tr>
+</table>
+
+<script>
+  function deleteRow(button) {
+    var row = button.parentNode.parentNode;
+    row.parentNode.removeChild(row);
+  }
+</script> -->
+
+<!-- 4) -->
+
+<!-- <img width="200px"
+onmouseover="src='https://th.bing.com/th/id/R.2059e49547056a6d66011d841b3592a4?rik=aljuStfO238yYg&pid=ImgRaw&r=0'"
+onmouseout="src='https://tse1.mm.bing.net/th/id/OIP.xyhf7bmGlSan6P-r46qk4AHaE8?rs=1&pid=ImgDetMain&o=7&rm=3'"
+ src="https://tse1.mm.bing.net/th/id/OIP.xyhf7bmGlSan6P-r46qk4AHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt=""> -->
+
+<!-- 5) -->
+ 
+<!-- <h1>Counter</h1>
+  <div id="counter">0</div>
+  <button id="increase">Increase</button>
+  <button id="decrease">Decrease</button>
+
+  <script>
+    let count = 0;
+
+    const counterDisplay = document.getElementById("counter");
+    const increaseBtn = document.getElementById("increase");
+    const decreaseBtn = document.getElementById("decrease");
+
+    increaseBtn.onclick = function() {
+      count++;
+      counterDisplay.textContent = count;
+    };
+
+    decreaseBtn.onclick = function() {
+      count--;
+      counterDisplay.textContent = count;
+    };
+  </script> -->
+
+
+      <script src="app.js"></script>
+</body>
+</html>
