@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+ <h1 style="font-size: 30px; text-align: center; color: rgb(148, 2, 2);">My Calculator App</h1>
+    <div class="main">
+        <div>
+            <input id="resultValue" class="result" type="text" />
+        </div>
+        <div>
+            <button class="clearBtn" onclick="allClr()"
+                style="background-color: rgb(3, 129, 138); border: 2px groove rgb(3, 129, 138);">C</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getVal('^')"
+                style="background-color: rgb(75, 74, 74); border: 2px groove rgb(75, 74, 74);">^</button>
+            <button class="btn" onclick="getVal('/')"
+                style="background-color: rgb(75, 74, 74); border: 2px groove rgb(75, 74, 74);">/</button>
+            <button class="btn" onclick="square()" style="background-color: rgb(75, 74, 74); border: 2px groove rgb(75, 74, 74);">
+                x
+                <small>
+                    <sup style="background-color:  rgb(75, 74, 74);">2</sup>
+                </small>
+            </button>
+            <button class="btn rounded-circle" onclick="oneclr()"
+                style="background-color: rgb(194, 135, 27); border: 2px groove rgb(194, 135, 27);">CE</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getVal(7)"
+                style="background-color: rgb(75, 74, 74); border: 2px groove rgb(75, 74, 74);">7</button>
+            <button class="btn" onclick="getVal(8)"
+                style="background-color: rgb(75, 74, 74); border: 2px groove rgb(75, 74, 74);">8</button>
+            <button class="btn" onclick="getVal(9)"
+                style="background-color: rgb(75, 74, 74); border: 2px groove rgb(75, 74, 74);">9</button>
+            <button class="btn rounded-circle" onclick="getVal('*')"
+                style="background-color: rgb(194, 135, 27); border: 2px groove rgb(194, 135, 27);">
+                *
+            </button>
+        </div>
+        <div>
+            <button class="btn" onclick="getVal(4)"
+                style="background-color: rgb(75, 74, 74); border: 2px groove rgb(75, 74, 74);">4</button>
+            <button class="btn" onclick="getVal(5)"
+                style="background-color: rgb(75, 74, 74); border: 2px groove rgb(75, 74, 74);">5</button>
+            <button class="btn" onclick="getVal(6)"
+                style="background-color: rgb(75, 74, 74); border: 2px groove rgb(75, 74, 74);">6</button>
+            <button class="btn rounded-circle" onclick="getVal('-')"
+                style="background-color: rgb(194, 135, 27); border: 2px groove rgb(194, 135, 27);">-</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getVal(1)"
+                style="background-color: rgb(75, 74, 74); border: 2px groove rgb(75, 74, 74);">1</button>
+            <button class="btn" onclick="getVal(2)"
+                style="background-color: rgb(75, 74, 74); border: 2px groove rgb(75, 74, 74);">2</button>
+            <button class="btn" onclick="getVal(3)"
+                style="background-color: rgb(75, 74, 74); border: 2px groove rgb(75, 74, 74);">3</button>
+            <button class="btn rounded-circle" onclick="getVal('+')"
+                style="background-color: rgb(194, 135, 27); border: 2px groove rgb(194, 135, 27);">+</button>
+        </div>
+        <div>
+            <button class="halfBtn" onclick="getVal(0)"
+                style="background-color: rgb(3, 129, 138); border: 2px groove rgb(3, 129, 138);">0</button>
+             <button class="btn" onclick="getVal('%')"
+                style="background-color: rgb(3, 129, 138); border: 2px groove rgb(3, 129, 138);">%</button>
+
+                <button class="btn" onclick="equal()"
+                style="background-color: rgb(194, 135, 27); border: 2px groove rgb(194, 135, 27);">=</button>
+            </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
